@@ -6,8 +6,13 @@ import {
 const HeaderMenu = () => {
     return(
         <div className="header">
-            <NavLink className="header__button" activeClassName="header__button header__button_selected" to="/home">Home</NavLink>
-            <NavLink className="header__button" activeClassName="header__button header__button_selected" to="/speakers">Speakers</NavLink>
+            <div className="logo">
+                <h1>logo</h1>
+            </div>
+            <div className="menu_buttons">
+                <NavLink className="menu_buttons__button" activeClassName="menu_buttons__button menu_buttons__button_selected" to="/home">Home</NavLink>
+                <NavLink className="menu_buttons__button" activeClassName="menu_buttons__button menu_buttons__button_selected" to="/speakers">Speakers</NavLink>
+            </div>
         </div>
     )
 }

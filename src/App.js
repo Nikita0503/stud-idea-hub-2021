@@ -7,18 +7,16 @@ import {
   Redirect
 } from "react-router-dom";
 import HeaderMenu from './components/HeaderMenu/HeaderMenu';
+import HomePage from './pages/home/HomePage';
 
 const App = () => {
   return (
     <Router>
-      <div class="col-md-12">
+      <div>
         <HeaderMenu/>
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/home">
-            <Home />
+            <HomePage />
           </Route>
           <Route path="/speakers">
             <Speakers />
@@ -28,10 +26,6 @@ const App = () => {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
 }
 
 function Speakers() {
