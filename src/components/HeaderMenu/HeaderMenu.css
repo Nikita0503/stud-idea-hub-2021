@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header__button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.header__button_selected{
+    border-bottom: 5px solid #FF0074;
+}
