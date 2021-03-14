@@ -92,7 +92,15 @@ const HomePage = () => {
             </div>
             <div className="purposes">
                 <span className="purposes__title">Our purposes</span>
+                <span className="purposes__description">Our goal is to solve the problems of the Faculty of Information Technology.
+                      This conference is the starting point for launching a program to solve these problems. 
+                      We are pursuing 3 main themes:</span>
                 <PurposesList/>
+            </div>
+            <div className="sponsors">
+                <span>
+                    123
+                </span>
             </div>
         </React.Fragment>
     )
