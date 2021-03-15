@@ -47,6 +47,7 @@
     flex-direction: column;
     align-items: center;
     background-color: orange;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -66,8 +67,162 @@
 }
 
 .sponsors{
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
     background-color: crimson;
+}
+
+.sponsors_title_container{
+    width: 70vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sponsors_title_container__text{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sponsors_companies{
+    width: 70vw;
+}
+
+.varteq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.varteq__title{
+    font-size: 36px;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+.varteq_info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.varteq_info__image{
+    width: 50%;
+    height: 100%;
+}
+
+.varteq_info__description{
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.varteq__link{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.sponsors_companies_second_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.idap{
+    background-color: #FEDD00;
+    flex: 1;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.idap__title{
+    font-size: 36px;
+    font-weight: 550;
+    color: #000000;
+}
+
+.idap_info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.idap_info__image{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.idap_info__description{
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: end;
+    font-size: 20px;
+    color: #000000;
+}
+
+.idap__link{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.foxminded{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f0f0f0;
+}
+
+.foxminded__title{
+    font-size: 36px;
+    font-weight: 550;
+    color: #000000;
+}
+
+.foxminded_info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foxminded_info__image{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.foxminded_info__description{
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+    font-size: 20px;
+    color: #000000;
+}
+
+.foxminded__link{
+    text-decoration: underline;
+    color: #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,5 +256,69 @@
     .purposes__description{
         width: 80%;
         font-size: 16px;
+    }
+
+    .sponsors_companies{
+        width: 90vw;
+    }
+
+    .sponsors_title_container{
+        width: 90vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sponsors_title_container__text{
+        font-size: 35px;
+    }
+
+    .varteq_info{
+        flex-direction: column;
+    }
+
+    .varteq_info__image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .varteq_info__description{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .sponsors_companies_second_row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .idap_info{
+        flex-direction: column;
+    }
+
+    .idap_info__image{
+        width: 100%;
+    }
+
+    .idap_info__description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foxminded{
+        align-items: flex-start;
+    }
+
+    .foxminded_info{
+        flex-direction: column-reverse;
+    }
+
+    .foxminded_info__image{
+        width: 100%;
+    }
+
+    .foxminded_info__description{
+        width: 100%;
+        text-align: center;
     }
 }
