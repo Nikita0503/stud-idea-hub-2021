@@ -139,11 +139,11 @@
 }
 
 .idap{
-    background-color: #FEDD00;
     flex: 1;
-    padding: 5px;
+    flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #FEDD00;
 }
 
 .idap__title{
@@ -161,7 +161,6 @@
 
 .idap_info__image{
     width: 50%;
-    height: 100%;
     padding: 20px;
 }
 
@@ -184,7 +183,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
     flex: 1;
     padding-left: 10px;
     padding-right: 10px;
@@ -206,7 +204,6 @@
 
 .foxminded_info__image{
     width: 50%;
-    height: 100%;
     padding: 20px;
 }
 
