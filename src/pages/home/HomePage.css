@@ -74,13 +74,13 @@
     background-color: crimson;
 }
 
-.sponsors_title_container{
+.sponsors_title{
     width: 70vw;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.sponsors_title_container__text{
+.sponsors_title__text{
     font-size: 60px;
     font-weight: 700;
     text-align: center;
@@ -230,13 +230,13 @@
     background-color: crimson;
 }
 
-.google_map_container_title{
+.google_map_title{
     width: 70vw;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.google_map_container_title__text{
+.google_map_title__text{
     font-size: 60px;
     font-weight: 700;
     text-align: center;
@@ -280,13 +280,13 @@
         width: 90vw;
     }
 
-    .sponsors_title_container{
+    .sponsors_title{
         width: 90vw;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .sponsors_title_container__text{
+    .sponsors_title__text{
         font-size: 35px;
     }
 
@@ -340,13 +340,13 @@
         text-align: center;
     }
 
-    .google_map_container_title{
+    .google_map_title{
         width: 90vw;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .google_map_container_title__text{
+    .google_map_title__text{
         font-size: 35px;
     }
 }

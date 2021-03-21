@@ -103,8 +103,8 @@ const HomePage = () => {
                 <PurposesList/>
             </div>
             <div className="sponsors">
-                <div className="sponsors_title_container">
-                    <span className="sponsors_title_container__text">
+                <div className="sponsors_title">
+                    <span className="sponsors_title__text">
                         SPONSORS AND GUESTS
                     </span>
                 </div>
@@ -135,8 +135,8 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="google_map">
-                <div className="google_map_container_title">
-                    <span className="google_map_container_title__text">
+                <div className="google_map_title">
+                    <span className="google_map_title__text">
                         WE WILL BE HERE
                     </span>
                 </div>

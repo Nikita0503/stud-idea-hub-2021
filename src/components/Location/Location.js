@@ -4,6 +4,7 @@ import {GoogleMap,
     useLoadScript} from '@react-google-maps/api';
 import mapStyle from './mapStyle';
 import marker from '../../content/marker.png';
+import LocationHint from '../LocationHint/LocationHint';
 
 const Location = () => {
 
@@ -21,9 +22,9 @@ const Location = () => {
     return(
     <div>
         <GoogleMap
-            center={{lat: 47.90567791825118, lng: 33.40140596245398}}
+            center={{lat: 47.90587791825118, lng: 33.40050596245398}}
             zoom={17}
-            mapContainerClassName="google-map"
+            mapContainerClassName="google_map__map"
             options={options}>
             <Marker
                 position={{lat: 47.90567791825118, lng: 33.40140596245398}}
@@ -31,6 +32,7 @@ const Location = () => {
                     url: marker,
                 }}
             />
+            <LocationHint/>
         </GoogleMap>
     </div>)
 }
