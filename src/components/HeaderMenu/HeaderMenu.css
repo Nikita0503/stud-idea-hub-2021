@@ -72,6 +72,7 @@
         width: 100%;
         transition: 350ms;
         top: 0px;
+        z-index: 1000;
     }
     
     .menu-toggler_black{
