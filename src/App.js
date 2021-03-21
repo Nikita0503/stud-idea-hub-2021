@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import HeaderMenu from './components/HeaderMenu/HeaderMenu';
 import HomePage from './pages/home/HomePage';
+import SpeakersPage from './pages/speakers/SpeakersPage';
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
             <HomePage />
           </Route>
           <Route path="/speakers">
-            <Speakers />
+            <SpeakersPage />
           </Route>
           <Redirect exact from="/" to="home" />
         </Switch>
@@ -27,10 +28,5 @@ const App = () => {
     </Router>
   );
 }
-
-function Speakers() {
-  return <h2>Speakers</h2>;
-}
-
 
 export default App;

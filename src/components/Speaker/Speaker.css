@@ -1,0 +1,13 @@
+.speaker{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}   
+
+.speaker__name{
+    color:#000;
+    font-size: 24px;
+}

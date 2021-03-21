@@ -1,0 +1,33 @@
+.speakers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.speakers_title{
+    width: 70vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakers_title__text{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #151515;
+}
+
+@media screen and (max-width: 768px) {
+    .speakers{
+        padding-top: 50px;
+    }
+
+    .speakers_title__text{
+        font-size: 40px;
+    }
+}
