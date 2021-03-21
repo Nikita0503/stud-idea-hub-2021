@@ -1,5 +1,6 @@
 import './HomePage.css';
 import React from 'react';
+import Location from '../../components/Location/Location';
 import PurposesList from '../../components/PurposesList/PurposesList'
 import VARTEQ from '../../content/VARTEQ_logo.png'
 import IDAP from '../../content/idap_logo.png'
@@ -57,7 +58,7 @@ const HomePage = () => {
                     timeLeft += '00:'
                 }
                 if(minutes !== 0){
-                    if(minutes < 10){ //fix it
+                    if(minutes < 10){
                         timeLeft += `0${Math.round(minutes)}:`
                     }else{
                         timeLeft += `${Math.round(minutes)}:`
@@ -81,6 +82,7 @@ const HomePage = () => {
             
         }, 1000)
     }, [])
+
 
     return(
         <React.Fragment>
@@ -131,6 +133,14 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="google_map">
+                <div className="google_map_container_title">
+                    <span className="google_map_container_title__text">
+                        WE WILL BE HERE
+                    </span>
+                </div>
+               <Location/>
             </div>
         </React.Fragment>
     )

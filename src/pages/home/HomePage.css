@@ -222,6 +222,27 @@
     color: #000000;
 }
 
+.google_map{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: crimson;
+}
+
+.google_map_container_title{
+    width: 70vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.google_map_container_title__text{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
     .words{
         flex-direction: column;
@@ -317,5 +338,15 @@
     .foxminded_info__description{
         width: 100%;
         text-align: center;
+    }
+
+    .google_map_container_title{
+        width: 90vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .google_map_container_title__text{
+        font-size: 35px;
     }
 }
