@@ -30,7 +30,7 @@
     flex: 1;
     margin-left: 20px;
     background-color: brown;
-     background: -webkit-linear-gradient(#ffbb00,#ff0074);
+    background: -webkit-linear-gradient(#ffbb00,#ff0074);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -1,11 +1,15 @@
 import './Speaker.css';
 import React from 'react'
 
-const Speaker = () => {
+const Speaker = (props) => {
     return(
         <div className="speaker">
-            <img /> 
-            <span className="speaker__name">Speaker Name</span>
+            <div className="speaker_image">
+                <img src={props.avatar} className="speaker_image__avatar" />
+            </div> 
+            <span className="speaker__name">{props.name}</span>
+            <span className="speaker__company">{props.company}</span>
+            <span className="speaker__description">{props.description}</span>
         </div>
     )
 }
