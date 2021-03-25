@@ -66,6 +66,31 @@
     color: #ffffff;
 }
 
+.schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule_title{
+    width: 70vw;
+    background-color: cornflowerblue;
+}
+
+.schedule_title__text{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.schedule_days{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .sponsors{
     display: flex;
     flex-direction: column;
@@ -228,6 +253,7 @@
     justify-items: center;
     align-items: center;
     background-color: crimson;
+    padding-bottom: 10px;
 }
 
 .google_map_title{
@@ -248,7 +274,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: chocolate;
+    background-color: #151515;
 }
 
 .contact_us_title{
@@ -311,6 +337,15 @@
     .purposes__description{
         width: 80%;
         font-size: 16px;
+    }
+
+    .schedule_title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .schedule_title__text{
+        font-size: 35px;
     }
 
     .sponsors_companies{

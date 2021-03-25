@@ -1,12 +1,15 @@
 import './HomePage.css';
 import React from 'react';
 import Location from '../../components/Location/Location';
-import PurposesList from '../../components/PurposesList/PurposesList'
+import PurposesList from '../../components/PurposesList/PurposesList';
+
 import VARTEQ from '../../content/VARTEQ_logo.png'
 import IDAP from '../../content/idap_logo.png'
 import FOXMINED from '../../content/foxminded_logo.png'
+import Schedule from '../../components/Schedule/Schedule';
 
 const WORDS = ['IMAGINE', 'LEARN', 'CREATE'];
+
 
 const HomePage = () => {
     const [currentWordIndex, setCurrentWordIndex] = React.useState(0);
@@ -101,6 +104,12 @@ const HomePage = () => {
                       This conference is the starting point for launching a program to solve these problems. 
                       We are pursuing 3 main themes:</span>
                 <PurposesList/>
+            </div>
+            <div className="schedule">
+                <div className="schedule_title">
+                    <span className="schedule_title__text">SCHEDULE</span>
+                </div>
+                <Schedule/>
             </div>
             <div className="sponsors">
                 <div className="sponsors_title">

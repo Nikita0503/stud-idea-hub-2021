@@ -1,0 +1,53 @@
+.point{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palegreen;
+}
+
+.point_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.point_description__avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-color: #ffffff;
+}
+
+.point_shape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.point_shape__line{
+    flex: 1;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.point_shape__line_hidden{
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .point{
+        display: flex;
+    }
+
+    .point_shape__line{
+        display: none;
+    }
+    
+    .point_shape__line_hidden{
+        display: none;
+    }
+}

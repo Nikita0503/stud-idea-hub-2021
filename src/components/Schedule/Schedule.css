@@ -1,0 +1,54 @@
+.schedule_days{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected_part{
+    background-color: greenyellow;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+}
+
+.selected_speaker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected_speaker__avatar{
+    width: 275px;
+    height: 275px;
+    border-radius: 300px;
+    background-color: honeydew;
+}
+
+.selected_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected_logo__image{
+    width: 275px;
+    height: 275px;
+    border-radius: 300px;
+    background-color: indigo;
+}
+
+.selected_round_table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .selected_part{
+        width: 100vw;
+        background-color: greenyellow;
+        align-self: center;
+    }
+}

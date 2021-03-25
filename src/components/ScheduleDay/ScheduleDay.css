@@ -1,0 +1,19 @@
+.schedule_day{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: orchid;
+}
+
+@media screen and (max-width: 768px) {
+    .schedule_day{
+        flex-wrap: wrap;
+    }
+    
+    .line{
+        flex: none;
+        width: 5px;
+        height: 100px;
+    }
+}
