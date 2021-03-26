@@ -12,10 +12,10 @@ const POINTS = [
 ]
 
 
-const Schedule = (props) => {
+const ScheduleDay = (props) => {
     return(
         <div className="schedule_day">
-            {POINTS.map((point, index) => {
+            {props.points.map((point, index) => {
                 return(
                     <Point 
                         setSelected={props.setSelected}
@@ -28,4 +28,4 @@ const Schedule = (props) => {
     )
 }
 
-export default Schedule;
+export default ScheduleDay;

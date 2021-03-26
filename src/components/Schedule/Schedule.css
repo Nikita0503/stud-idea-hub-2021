@@ -11,6 +11,14 @@
     color: #ffffff;
 }
 
+.schedule_days__day_first{
+    margin-top: 20px;
+}
+
+.schedule_days__day_second{
+    margin-top: 50px;
+}
+
 .selected_part{
     display: flex;
     align-self: center;
@@ -37,10 +45,14 @@
 
 .selected_speaker__name{
     color: #ffffff;
+    text-align: center;
+    font-size: 32px;
 }
 
 .selected_speaker__theme{
     color: #ffffff;
+    text-align: center;
+    font-size: 24px;
 }
 
 .selected_logo{
@@ -65,10 +77,18 @@
 
 .selected_round_table__name{
     color: #ffffff;
+    font-size: 36px;
+}
+
+.selected_round_table__avatar{
+    width: 100px;
+    height: 100px;
 }
 
 .selected_round_table__description{
     color: #ffffff;
+    font-size: 24px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
