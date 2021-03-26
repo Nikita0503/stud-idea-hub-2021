@@ -71,11 +71,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: brown;
 }
 
 .schedule_title{
     width: 70vw;
-    background-color: cornflowerblue;
 }
 
 .schedule_title__text{

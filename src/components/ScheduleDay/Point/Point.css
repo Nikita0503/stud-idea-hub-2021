@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: palegreen;
 }
 
 .point_description{
@@ -17,7 +16,14 @@
     width: 120px;
     height: 120px;
     border-radius: 120px;
-    background-color: #ffffff;
+    object-fit: cover;
+    padding: 3px;
+    background: -webkit-linear-gradient(#ffbb00,#ff0074);
+}
+
+.point_description__time{
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .point_shape{
@@ -30,8 +36,8 @@
 .point_shape__line{
     flex: 1;
     height: 5px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
+    background: -webkit-linear-gradient(#ffbb00,#ff0074);
+    margin-bottom: 25px;
 }
 
 .point_shape__line_hidden{
