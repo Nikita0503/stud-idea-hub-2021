@@ -4,52 +4,52 @@ import Speaker from '../../components/Speaker/Speaker';
 
 const SPEAKERS = [
     {
-        name: 'Margot Robbie',
+        name: 'Artem Karyavka',
         avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
         company: 'VARTEQ, USA',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'PUDGE',
+        name: 'Nikita Shevtsiv',
         avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
         company: 'GABECOUNTRY, DOTA2',
-        description: 'Вывозит катки за 1 хук, руинит на изичах за 1 хук. Крадет твою экспу, агент 0-7-0. Любитель отрыгнуть в войс, рофлит над жирными, хотя сам такой. 1 катка после завода и спать, просто перетерпи его и все. Гангает тебя по кд, даже если в твоей тиме.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'Margot Robbie 2',
+        name: 'Vladislav Zadoroshii',
         avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
         company: 'VARTEQ, USA',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'PUDGE 2',
+        name: 'Bohdan Kachichilidze',
         avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
         company: 'GABECOUNTRY, DOTA2',
-        description: 'Вывозит катки за 1 хук, руинит на изичах за 1 хук. Крадет твою экспу, агент 0-7-0. Любитель отрыгнуть в войс, рофлит над жирными, хотя сам такой. 1 катка после завода и спать, просто перетерпи его и все. Гангает тебя по кд, даже если в твоей тиме.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'Margot Robbie 3',
+        name: 'Sergey Nemchinsky',
         avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
         company: 'VARTEQ, USA',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'PUDGE 3',
+        name: 'Denis Panaskin',
         avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
         company: 'GABECOUNTRY, DOTA2',
-        description: 'Вывозит катки за 1 хук, руинит на изичах за 1 хук. Крадет твою экспу, агент 0-7-0. Любитель отрыгнуть в войс, рофлит над жирными, хотя сам такой. 1 катка после завода и спать, просто перетерпи его и все. Гангает тебя по кд, даже если в твоей тиме.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'Margot Robbie 4',
+        name: 'Yulia Petruk',
         avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
         company: 'VARTEQ, USA',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
-        name: 'PUDGE 4',
+        name: 'METRO 2033',
         avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
         company: 'GABECOUNTRY, DOTA2',
-        description: 'Вывозит катки за 1 хук, руинит на изичах за 1 хук. Крадет твою экспу, агент 0-7-0. Любитель отрыгнуть в войс, рофлит над жирными, хотя сам такой. 1 катка после завода и спать, просто перетерпи его и все. Гангает тебя по кд, даже если в твоей тиме.'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     }
 ]
 

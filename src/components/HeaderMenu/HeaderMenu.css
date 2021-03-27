@@ -38,6 +38,8 @@
     padding: 10px;
     font-size: 24px;
     color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .menu_buttons__button:hover{

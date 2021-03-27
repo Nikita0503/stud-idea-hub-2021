@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color:royalblue;
+    background-color:#001B38;
 }
 
 .words{
@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
+    background-color: #002042;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -64,6 +64,8 @@
     text-align: center;
     margin-top: 15px;
     color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 
 .schedule{
@@ -71,7 +73,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: #00254c;
 }
 
 .schedule_title{
@@ -96,7 +100,8 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background-color: crimson;
+    padding-bottom: 50px;
+    background-color: #002042;
 }
 
 .sponsors_title{
@@ -114,6 +119,8 @@
 
 .sponsors_companies{
     width: 70vw;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .varteq{
@@ -252,7 +259,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background-color: crimson;
+    background-color: #001B38;
     padding-bottom: 10px;
 }
 
@@ -300,6 +307,8 @@
 .contact_us_info__text{
     color: #ffffff;
     font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .bi-telephone-fill{

@@ -4,9 +4,9 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="8888.000000pt" height="8888.000000pt" viewBox="0 0 8888.000000 8888.000000"
  preserveAspectRatio="xMidYMid meet">
-<linearGradient id="Gradient" x1="0" x2="0" y1="0" y2="1">
-    <stop offset="0%" stop-color="red"/>
-    <stop offset="100%" stop-color="blue"/>
+<linearGradient id="Gradient" x1="0" x2="0.8" y1="0" y2="1">
+    <stop offset="0%" stop-color="#ff0074"/>
+    <stop offset="100%" stop-color="#ffbb00"/>
 </linearGradient>
 <g transform="translate(0.000000,8888.000000) scale(0.100000,-0.100000)"
 fill="url(#Gradient)" stroke="none">

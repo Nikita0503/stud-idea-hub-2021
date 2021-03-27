@@ -18,8 +18,14 @@
     border-radius: 120px;
     object-fit: cover;
     padding: 3px;
-    background: -webkit-linear-gradient(#ffbb00,#ff0074);
+    background: -webkit-linear-gradient(0.1turn, #ffbb00,#ff0074);
 }
+
+.point_description__avatar_empty{
+    background: #001B38;
+    padding: 10px; 
+}
+
 
 .point_description__time{
     color: #ffffff;
@@ -36,8 +42,15 @@
 .point_shape__line{
     flex: 1;
     height: 5px;
-    background: -webkit-linear-gradient(#ffbb00,#ff0074);
     margin-bottom: 25px;
+}
+
+.point_shape__line_start{
+    background:  -webkit-linear-gradient(0.1turn, #FF5E3A, #FB9219);
+}
+
+.point_shape__line_end{
+    background:  -webkit-linear-gradient(0.1turn, #FF2C59, #FF5E3A);
 }
 
 .point_shape__line_hidden{

@@ -5,6 +5,7 @@
     align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color:#001B38;
 }
 
 .speakers_title{
@@ -21,7 +22,7 @@
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    color: #151515;
+    color: #ffffff;
 }
 
 .speakers_members{

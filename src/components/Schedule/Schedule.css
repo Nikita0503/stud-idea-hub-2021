@@ -25,6 +25,8 @@
     justify-content: center;
     width: 400px;
     height: 400px;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .selected_speaker{
@@ -35,24 +37,28 @@
 }
 
 .selected_speaker__avatar{
-    width: 275px;
-    height: 275px;
+    width: 260px;
+    height: 260px;
     border-radius: 300px;
     object-fit: cover;
     padding: 5px;
-    background: -webkit-linear-gradient(#ffbb00,#ff0074);
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(0.1turn, #ffbb00,#ff0074);
 }
 
 .selected_speaker__name{
     color: #ffffff;
     text-align: center;
-    font-size: 32px;
+    font-size: 34px;
+    font-weight: 400;
 }
 
 .selected_speaker__theme{
     color: #ffffff;
     text-align: center;
     font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .selected_logo{
@@ -78,6 +84,7 @@
 .selected_round_table__name{
     color: #ffffff;
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .selected_round_table__avatar{

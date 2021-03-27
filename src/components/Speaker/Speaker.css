@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    background: -webkit-linear-gradient(#ffbb00,#ff0074);
+    background: -webkit-linear-gradient(0.1turn, #ffbb00,#ff0074);
 }
 
 .speaker_image__avatar{
@@ -35,18 +35,22 @@
 }
 
 .speaker__name{
-    color:#000;
     font-size: 28px;
     margin-top: 10px;
+    color:#ffffff;
 }
 
 .speaker__company{
     font-size: 16px;
     margin-top: 2px;
+    color:#ffffff;
 }
 
 .speaker__description{
     width: 250px;
     text-align: center;
     margin-top: 5px;
+    font-family: 'Roboto';
+    font-weight: 350;
+    color:#ffffff;
 }
