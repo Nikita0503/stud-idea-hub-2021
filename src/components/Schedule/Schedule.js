@@ -6,25 +6,28 @@ import logo from '../../content/logo.png';
 import coffeeBreak from '../../content/coffee_break.png'
 import roundTable from '../../content/round_table.png';
 
+import margot from '../../content/margot.jpg'
+
 const POINTS_DAY_1 = [
-    {number: 1, name: 'Artem Karyavka', topic: 'Startups / outsource / freelance', time: '12:00', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
-    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', time: '12:30', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
+    {number: 1, name: 'Artem Karyavka', topic: 'Startups / outsource / freelance', time: '12:00', avatar: margot},
+    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', time: '12:30', avatar: margot},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Importance of Git system', time: '13:30', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
-    {number: 5, name: 'Bohdan Kachichilidze', topic: 'Ranks of IT specialists', time: '14:00', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
+    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Importance of Git system', time: '13:30', avatar: margot},
+    {number: 5, name: 'Bohdan Kachichilidze', topic: 'Ranks of IT specialists', time: '14:00', avatar: margot},
     {number: 6, name: 'Round table', topic: 'Everyone can ask questions to speakers during a round table, talk about working in IT, take an interest in studying at the university', time: '14:30', avatar: roundTable}
 ]
 
 const POINTS_DAY_2 = [
-    {number: 1, name: 'Sergey Nemchinsky', topic: 'How to make university better', time: '12:00', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
-    {number: 2, name: 'Denis Panaskin', topic: 'How big data works', time: '12:30', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
+    {number: 1, name: 'Sergey Nemchinsky', topic: 'How to make university better', time: '12:00', avatar: margot},
+    {number: 2, name: 'Denis Panaskin', topic: 'How big data works', time: '12:30', avatar: margot},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', time: '13:30', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
-    {number: 5, name: 'METRO 2033', topic: 'Features of gamedev projects', time: '14:00', avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg'},
+    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', time: '13:30', avatar: margot},
+    {number: 5, name: 'METRO 2033', topic: 'Features of gamedev projects', time: '14:00', avatar: margot},
     {number: 6, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
 ]
 
 const Schedule = () => {
+
     const [selected, setSelected] = React.useState(false);
 
     const getSelectedSpeaker = () => {
