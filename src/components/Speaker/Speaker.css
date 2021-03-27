@@ -36,21 +36,27 @@
 
 .speaker__name{
     font-size: 28px;
-    margin-top: 10px;
+    margin-top: 12px;
     color:#ffffff;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .speaker__company{
     font-size: 16px;
     margin-top: 2px;
     color:#ffffff;
+    font-family: 'Roboto';
+    font-weight: 350;
 }
 
 .speaker__description{
     width: 250px;
     text-align: center;
-    margin-top: 5px;
+    padding: 5px;
     font-family: 'Roboto';
-    font-weight: 350;
-    color:#ffffff;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 250;
+    margin-top: 10px;
 }

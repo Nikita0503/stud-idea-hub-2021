@@ -30,6 +30,8 @@
 .point_description__time{
     color: #ffffff;
     font-size: 20px;
+    font-family: 'Roboto';
+    padding-top: 5px;
 }
 
 .point_shape{
@@ -42,7 +44,7 @@
 .point_shape__line{
     flex: 1;
     height: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .point_shape__line_start{

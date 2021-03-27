@@ -13,9 +13,11 @@
 
 .schedule_days__day_first{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .schedule_days__day_second{
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -27,6 +29,7 @@
     height: 400px;
     font-family: 'Roboto';
     font-weight: 350;
+    transition: 350ms;
 }
 
 .selected_speaker{
@@ -37,8 +40,10 @@
 }
 
 .selected_speaker__avatar{
-    width: 260px;
-    height: 260px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
     border-radius: 300px;
     object-fit: cover;
     padding: 5px;
