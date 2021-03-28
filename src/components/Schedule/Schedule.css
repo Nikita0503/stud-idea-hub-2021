@@ -84,6 +84,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 400px;
 }
 
 .selected_round_table__name{

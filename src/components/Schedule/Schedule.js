@@ -7,10 +7,11 @@ import coffeeBreak from '../../content/coffee_break.png'
 import roundTable from '../../content/round_table.png';
 
 import margot from '../../content/margot.jpg'
+import papich from '../../content/papich.jpg'
 
 const POINTS_DAY_1 = [
     {number: 1, name: 'Artem Karyavka', topic: 'Startups / outsource / freelance', time: '12:00', avatar: margot},
-    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', time: '12:30', avatar: margot},
+    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', time: '12:30', avatar: papich},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
     {number: 4, name: 'Vladislav Zadoroshii', topic: 'Importance of Git system', time: '13:30', avatar: margot},
     {number: 5, name: 'Bohdan Kachichilidze', topic: 'Ranks of IT specialists', time: '14:00', avatar: margot},
