@@ -1,4 +1,5 @@
 .schedule_day{
+    height: 160px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,6 +8,7 @@
 
 @media screen and (max-width: 768px) {
     .schedule_day{
+        height: auto;
         flex-wrap: wrap;
     }
     

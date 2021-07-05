@@ -19,6 +19,13 @@
     object-fit: cover;
     padding: 3px;
     background: -webkit-linear-gradient(0.1turn, #ffbb00,#ff0074);
+    transition-duration: 250ms;
+}
+
+.point_description__avatar:hover{
+    width: 145px;
+    height: 145px;
+    transition-duration: 250ms;
 }
 
 .point_description__avatar_empty{
@@ -70,5 +77,10 @@
     
     .point_shape__line_hidden{
         display: none;
+    }
+    .point_description__avatar:hover{
+        width: 120px;
+        height: 120px;
+        transition-duration: 0;
     }
 }

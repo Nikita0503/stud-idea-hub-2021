@@ -32,7 +32,7 @@ const PurposesList = () => {
                 const Block = (props) => {
                     const { inViewport, forwardedRef } = props;
                     return(
-                        <div className={`purpose ${inViewport && 'purpose_2'}`} ref={forwardedRef}>
+                        <div className={`purpose ${inViewport && 'purpose_aminated'}`} ref={forwardedRef}>
                             <img className="purpose__image" src={purpose.image}/>
                             <span className="purpose__title">{purpose.title}</span>
                             <span className="purpose__description">{purpose.description}</span>
@@ -40,7 +40,7 @@ const PurposesList = () => {
                     )
                 }
                 const ViewportBlock = handleViewport(Block)
-                return wasAnimated ? <div className='purpose purpose_2'>
+                return wasAnimated ? <div className='purpose purpose_aminated'>
                 <img className="purpose__image" src={purpose.image}/>
                 <span className="purpose__title">{purpose.title}</span>
                 <span className="purpose__description">{purpose.description}</span>

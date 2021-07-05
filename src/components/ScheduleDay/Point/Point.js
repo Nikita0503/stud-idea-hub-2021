@@ -12,7 +12,6 @@ const Point = (props) => {
                         className={`point_description__avatar ${(props.index + 1 ) % 3 == 0 && 'point_description__avatar_empty'}`}
                         src={props.speaker.avatar}
                         onMouseOver={() => props.setSelected(props.speaker)} 
-                        onMouseOut={() => props.setSelected(null)}
                         onClick={() => props.setSelected(props.speaker)}/>
                     <span className="point_description__time">{props.speaker.time}</span>
                 </div>
