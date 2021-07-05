@@ -1,5 +1,6 @@
 import './Greetings.css';
 import React from 'react'
+import BackgroundGreetings from '../BackgroundGreetings/BackgroundGreetings';
 
 const WORDS = ['IMAGINE', 'LEARN', 'CREATE'];
 
@@ -31,7 +32,7 @@ const Greetings = () => {
     React.useEffect(async () => {
         setInterval(() => {
             const currentDate = new Date();
-            const startDate = new Date('May 5, 2021 12:00:00');
+            const startDate = new Date('September 20, 2021 12:00:00');
             var delta = (startDate.getTime() - currentDate.getTime()) / 1000;
             if(delta > 0){
                 const days = Math.floor(delta / 86400);
@@ -82,6 +83,7 @@ const Greetings = () => {
 
     return(
         <React.Fragment>
+            <BackgroundGreetings/>
             <div className="words">
                  <span className="words__text words__text_first">LET'S </span>
                  <span class="words__text words__text_second">{' '+shownWord}</span>
