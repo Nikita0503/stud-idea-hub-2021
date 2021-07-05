@@ -1,6 +1,6 @@
 import './PurposesList.css';
 import React from 'react';
-
+import handleViewport from 'react-in-viewport';
 import educationIcon from '../../content/education.svg'
 import FutureIcon from '../../content/future.svg'
 import GrowthIcon from '../../content/growth.svg'
@@ -25,15 +25,26 @@ const PURPOSES = [
 
 
 const PurposesList = () => {
+    const [wasAnimated, setWasAnimated] = React.useState(false)
     return(
         <div className="purposes_list">
             {PURPOSES.map(purpose => {
-                return(
-                <div className="purpose">
-                    <img className="purpose__image" src={purpose.image}/>
-                    <span className="purpose__title">{purpose.title}</span>
-                    <span className="purpose__description">{purpose.description}</span>
-                </div>)
+                const Block = (props) => {
+                    const { inViewport, forwardedRef } = props;
+                    return(
+                        <div className={`purpose ${inViewport && 'purpose_2'}`} ref={forwardedRef}>
+                            <img className="purpose__image" src={purpose.image}/>
+                            <span className="purpose__title">{purpose.title}</span>
+                            <span className="purpose__description">{purpose.description}</span>
+                        </div>
+                    )
+                }
+                const ViewportBlock = handleViewport(Block)
+                return wasAnimated ? <div className='purpose purpose_2'>
+                <img className="purpose__image" src={purpose.image}/>
+                <span className="purpose__title">{purpose.title}</span>
+                <span className="purpose__description">{purpose.description}</span>
+            </div> : <ViewportBlock onEnterViewport={() => {setTimeout(() => setWasAnimated(true), 1500)}}/>
             })}
         </div>
     )
