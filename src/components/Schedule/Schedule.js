@@ -10,20 +10,20 @@ import margot from '../../content/margot.jpg'
 import papich from '../../content/papich.jpg'
 
 const POINTS_DAY_1 = [
-    {number: 1, name: 'Artem Karyavka', topic: 'Startups / outsource / freelance', time: '12:00', avatar: margot},
-    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', time: '12:30', avatar: papich},
+    {number: 1, name: 'Artem Karyavka', topic: 'Startups / outsource / freelance', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:00', avatar: margot},
+    {number: 2, name: 'Nikita Shevtsiv', topic: 'Native vs crossplatform', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:30', avatar: papich},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Importance of Git system', time: '13:30', avatar: margot},
-    {number: 5, name: 'Bohdan Kachichilidze', topic: 'Ranks of IT specialists', time: '14:00', avatar: margot},
+    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Importance of Git system', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: margot},
+    {number: 5, name: 'Bohdan Kachichilidze', topic: 'Ranks of IT specialists', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '14:00', avatar: margot},
     {number: 6, name: 'Round table', topic: 'Everyone can ask questions to speakers during a round table, talk about working in IT, take an interest in studying at the university', time: '14:30', avatar: roundTable}
 ]
 
 const POINTS_DAY_2 = [
-    {number: 1, name: 'Sergey Nemchinsky', topic: 'How to make university better', time: '12:00', avatar: margot},
-    {number: 2, name: 'Denis Panaskin', topic: 'How big data works', time: '12:30', avatar: margot},
+    {number: 1, name: 'Sergey Nemchinsky', topic: 'How to make university better', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:00', avatar: margot},
+    {number: 2, name: 'Denis Panaskin', topic: 'How big data works', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:30', avatar: margot},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', time: '13:30', avatar: margot},
-    {number: 5, name: 'METRO 2033', topic: 'Features of gamedev projects', time: '14:00', avatar: margot},
+    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: margot},
+    {number: 5, name: 'METRO 2033', topic: 'Features of gamedev projects', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '14:00', avatar: margot},
     {number: 6, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
 ]
 
@@ -37,8 +37,11 @@ const Schedule = () => {
                 <img 
                     className="selected_speaker__avatar"
                     src={selected.avatar}/>
-                <span className="selected_speaker__name">{selected.name}</span>
-                <span className="selected_speaker__theme">{selected.topic}</span>
+                    <div className="selected_speaker_text">
+                        <span className="selected_speaker_text__name">{selected.name}</span>
+                        <span className="selected_speaker_text__theme">{selected.topic}</span>
+                        <span className="selected_speaker_text__description">{selected.description}</span>
+                    </div>
             </div>
         )
     }
