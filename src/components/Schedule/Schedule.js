@@ -11,6 +11,7 @@ import papich from '../../content/papich.jpg'
 import artem_kariavka from '../../content/speakers/artem_kariavka.jpg';
 import sergey_nemchinskiy from '../../content/speakers/sergey_nemchinskiy.jpg'
 import bogdan_kikacheishvili from '../../content/speakers/bogdan_kikacheishvili.jpg';
+import Ukraine_map from '../../content/map_ukr.png'
 
 const POINTS_DAY_1 = [
     {number: 1, name: 'Artem Kariavka', topic: 'Startups / outsource / freelance', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:00', avatar: artem_kariavka},
@@ -60,6 +61,7 @@ const Schedule = () => {
     }
 
     const getSelected = (number) => {
+        
         if(number === 3 || number === 6 || number === 9 || number === 12){
             return getSelectedRoundTable()
         }
@@ -76,13 +78,15 @@ const Schedule = () => {
 
     return(
     <div className="schedule_days">
-        <span className="schedule_days__day schedule_days__day_first">DAY 1</span>
-        <ScheduleDay points={POINTS_DAY_1} setSelected={setSelected}/>
         <div className="selected_part">
             {selected ? getSelected(selected.number) : getLogo()}
         </div>
-        <span className="schedule_days__day schedule_days__day_second">DAY 2</span>
+        <span className="schedule_days__day schedule_days__day_first">DAY 1</span>
+        <ScheduleDay points={POINTS_DAY_1} setSelected={setSelected}/>
+        <hr/>
         <ScheduleDay points={POINTS_DAY_2} setSelected={setSelected}/>
+        <span className="schedule_days__day schedule_days__day_second">DAY 2</span>
+
     </div>)
 }
 

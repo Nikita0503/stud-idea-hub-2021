@@ -211,7 +211,7 @@
     flex: 1;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #A1C1E3;
+    background-color: #5D7D9F;
 }
 
 .qatestlab__title{
@@ -282,15 +282,33 @@
         flex-direction: column;
     }
 
+    .sponsors_companies_third_row{
+        display: flex;
+        flex-direction: column;
+    }
+
     .idap_info{
         flex-direction: column;
     }
 
     .idap_info__image{
-        width: 100%;
+        width: 70%;
     }
 
     .idap_info__description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .livarava_info{
+        flex-direction: column;
+    }
+
+    .livarava_info__image{
+        width: 70%;
+    }
+
+    .livarava_info__description{
         width: 100%;
         text-align: center;
     }
@@ -304,10 +322,27 @@
     }
 
     .foxminded_info__image{
-        width: 100%;
+        width: 70%;
     }
 
     .foxminded_info__description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .qatestlab{
+        align-items: flex-start;
+    }
+
+    .qatestlab_info{
+        flex-direction: column-reverse;
+    }
+
+    .qatestlab_info__image{
+        width: 70%;
+    }
+
+    .qatestlab_info__description{
         width: 100%;
         text-align: center;
     }

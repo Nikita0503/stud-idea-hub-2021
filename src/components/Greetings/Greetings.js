@@ -89,7 +89,7 @@ const Greetings = () => {
                  <span class="words__text words__text_second">{' '+shownWord}</span>
              </div>
              <div className="timer">
-                 <span className="timer__date">MAY 5, 6</span>
+                 <span className="timer__date">SEPTEMBER 20, 21</span>
                  <span className="timer__text">{timeLeft}</span>
              </div>
         </React.Fragment>

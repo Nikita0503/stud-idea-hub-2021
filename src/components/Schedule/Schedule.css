@@ -2,7 +2,11 @@
     width: 75vw;
     display: flex;
     flex-direction: column;
+    background-image: url("../../content/map_ukr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 .schedule_days__day{
     align-self: center;
@@ -17,8 +21,8 @@
 }
 
 .schedule_days__day_second{
-    margin-bottom: 10px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .selected_part{
@@ -85,7 +89,7 @@
 }
 
 .selected_logo__image{
-    width: 70%;
+    width: 50%;
     padding-top: 20px;
     height: 70%;
     object-fit: contain;
@@ -114,7 +118,7 @@
 
 .selected_round_table__description{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
