@@ -7,27 +7,30 @@ import coffeeBreak from '../../content/coffee_break.png'
 import roundTable from '../../content/round_table.png';
 
 import margot from '../../content/margot.jpg'
-import papich from '../../content/papich.jpg'
+import papich from '../../content/speakers/yuri_steam.png'
 import artem_kariavka from '../../content/speakers/artem_kariavka.jpg';
 import sergey_nemchinskiy from '../../content/speakers/sergey_nemchinskiy.jpg'
 import bogdan_kikacheishvili from '../../content/speakers/bogdan_kikacheishvili.jpg';
+import vladislav_zadorozhnii from '../../content/speakers/vlad_zadorozhnii.png';
+import denis_panaskin from '../../content/speakers/denis_panaskin.jpg';
+import yulia_petruk from '../../content/speakers/yulia_petruk.jpg';
 import Ukraine_map from '../../content/map_ukr.png'
 
 const POINTS_DAY_1 = [
     {number: 1, name: 'Artem Kariavka', topic: 'Startups / outsource / freelance', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:00', avatar: artem_kariavka},
     {number: 2, name: 'Nikita Shevtsiv', topic: 'How to find your first job in IT', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:30', avatar: papich},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: margot},
+    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: vladislav_zadorozhnii},
     {number: 5, name: 'Kikacheishvili Bogdan', topic: 'Hierarchies of IT companies', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '14:00', avatar: bogdan_kikacheishvili},
     {number: 6, name: 'Round table', topic: 'Everyone can ask questions to speakers during a round table, talk about working in IT, take an interest in studying at the university', time: '14:30', avatar: roundTable}
 ]
 
 const POINTS_DAY_2 = [
     {number: 1, name: 'Sergey Nemchinskiy', topic: 'How to fix the flaws of IT departments', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:00', avatar: sergey_nemchinskiy},
-    {number: 2, name: 'Denis Panaskin', topic: 'How big data works', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:30', avatar: margot},
+    {number: 2, name: 'Denis Panaskin', topic: 'How to learn to learn in it', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '12:30', avatar: denis_panaskin},
     {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: margot},
-    {number: 5, name: 'METRO 2033', topic: 'Features of gamedev projects', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '14:00', avatar: margot},
+    {number: 4, name: 'Yulia Petruk', topic: 'The importance of the HR function', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '13:30', avatar: yulia_petruk},
+    {number: 5, name: 'QATESTLAB', topic: 'Game testing features', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", time: '14:00', avatar: margot},
     {number: 6, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
 ]
 
