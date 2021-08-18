@@ -7,7 +7,6 @@
     background-repeat: no-repeat;
 }
 
-
 .schedule_days__day{
     align-self: center;
     font-size: 50px;
@@ -54,6 +53,17 @@
     margin-bottom: 20px;
     margin-right: 25px;
     background: -webkit-linear-gradient(0.1turn, #ffbb00,#ff0074);
+}
+
+.selected_speaker_logo{
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.selected_speaker_logo_small{
+    width: 100px;
 }
 
 .selected_speaker_text{

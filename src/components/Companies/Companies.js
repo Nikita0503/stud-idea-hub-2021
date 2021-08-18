@@ -42,14 +42,14 @@ const Companies = () => {
                     </div>
                     <div className="sponsors_companies_third_row">
                         <div className="livarava">
-                            <span className="livarava__title">Ukraine, Kryvyi Rih:</span>
+                            <span className="livarava__title">Ukraine, Kyiv:</span>
                             <div className="livarava_info">
                                 <img className="livarava_info__image" src={LIVARAVA}/>
                                 <span className="livarava_info__description"><p><a href="https://www.livarava.com/en/homepage"><span class="livarava__link">Livarava</span></a> is the company that builds services that helps store and manage knowledge and then allows to share it with your friends.</p></span>
                             </div>
                         </div>
                         <div className="qatestlab">
-                            <span className="qatestlab__title">Ukraine, Kryvyi Rih:</span>
+                            <span className="qatestlab__title">Ukraine, Kyiv:</span>
                             <div className="qatestlab_info">
                                 <span className="qatestlab_info__description"><p><a href="https://qatestlab.com"><span class="qatestlab__link">QATestLab</span></a> is a global provider of independent software testing and QA services with over 15 years of experience delivering QA support.</p></span>
                                 <img className="qatestlab_info__image" src={QATESTLAB}/>
