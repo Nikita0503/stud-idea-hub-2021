@@ -2,54 +2,63 @@ import './SpeakersPage.css';
 import React from 'react';
 import Speaker from '../../components/Speaker/Speaker';
 
+import margot from '../../content/margot.jpg'
+import papich from '../../content/speakers/yuri_steam.png'
+import artem_kariavka from '../../content/speakers/artem_kariavka.jpg';
+import sergey_nemchinskiy from '../../content/speakers/sergey_nemchinskiy.jpg'
+import bogdan_kikacheishvili from '../../content/speakers/bogdan_kikacheishvili.jpg';
+import vladislav_zadorozhnii from '../../content/speakers/vlad_zadorozhnii.png';
+import denis_panaskin from '../../content/speakers/denis_panaskin.jpg';
+import yulia_petruk from '../../content/speakers/yulia_petruk.jpg';
+
 const SPEAKERS = [
     {
         name: 'Artem Karyavka',
-        avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
-        company: 'VARTEQ, USA',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: artem_kariavka,
+        company: 'LivaRava',
+        description: 'How does an IT business work? What are the main directions in this area? What is freelance, outsourcing, startup?'
     },
     {
         name: 'Nikita Shevtsiv',
-        avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
-        company: 'GABECOUNTRY, DOTA2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: papich,
+        company: 'VARTEQ',
+        description: 'How to find your first job in IT? What mistakes can you make in the search process, resume writing, during an interview?'
     },
     {
         name: 'Vladislav Zadoroshii',
-        avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
-        company: 'VARTEQ, USA',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: vladislav_zadorozhnii,
+        company: 'Solwey Consulting',
+        description: 'Can the IT learning process be simplified? How can I do that? What mistakes do beginners most often make in the learning process?'
     },
     {
         name: 'Bohdan Kachichilidze',
-        avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
-        company: 'GABECOUNTRY, DOTA2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: bogdan_kikacheishvili,
+        company: 'IDAP',
+        description: 'What levels of engineers and managers are there in IT companies? How to determine your level? Are these gradations necessary?'
     },
     {
         name: 'Sergey Nemchinsky',
-        avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
-        company: 'VARTEQ, USA',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: sergey_nemchinskiy,
+        company: 'FoxmindEd',
+        description: 'What is the problem with IT departments in universities? What should be added, what should be reduced, and what can be completely removed?'
     },
     {
         name: 'Denis Panaskin',
-        avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
-        company: 'GABECOUNTRY, DOTA2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: denis_panaskin,
+        company: 'VARTEQ',
+        description: 'What is the right way to study in IT? What mistakes do junior engineers often make, how to avoid them? How do you learn to learn?'
     },
     {
         name: 'Yulia Petruk',
-        avatar: 'https://pbs.twimg.com/media/EFLGTs3WkAAIonA.jpg',
-        company: 'VARTEQ, USA',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        avatar: yulia_petruk,
+        company: 'VARTEQ',
+        description: 'The importance of HR managers in companies. What types of HR managers are there? What is the difference between a "recruiter" and an "HR"?'
     },
     {
-        name: 'METRO 2033',
-        avatar: 'https://steamuserimages-a.akamaihd.net/ugc/974371471307180867/1D6857A5B278BA1A3E5381B76344FCF206052983/',
-        company: 'GABECOUNTRY, DOTA2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        name: 'QATESTLAB',
+        avatar: margot,
+        company: 'QATESTLAB',
+        description: 'How is the game testing process going? How is this different from conventional projects? How to become a game tester?'
     }
 ]
 
