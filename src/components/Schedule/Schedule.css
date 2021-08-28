@@ -3,8 +3,15 @@
     display: flex;
     flex-direction: column;
     background-image: url("../../content/map_ukr.png");
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.schedule_day_container{
+    width: 75vw;
+    display: flex;
+    flex-direction: column; 
 }
 
 .schedule_days__day{
@@ -147,5 +154,9 @@
 
     .schedule_days__day{
         font-size: 35px;
+    }
+
+    .schedule_days{
+        flex-direction: column-reverse;
     }
 }

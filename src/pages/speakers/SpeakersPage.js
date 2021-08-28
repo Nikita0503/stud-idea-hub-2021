@@ -13,6 +13,12 @@ import yulia_petruk from '../../content/speakers/yulia_petruk.jpg';
 
 const SPEAKERS = [
     {
+        name: 'Sergey Nemchinsky',
+        avatar: sergey_nemchinskiy,
+        company: 'FoxmindEd',
+        description: 'What is the problem with IT departments in universities? What should be added, what should be reduced, and what can be completely removed?'
+    },
+    {
         name: 'Artem Karyavka',
         avatar: artem_kariavka,
         company: 'LivaRava',
@@ -35,24 +41,6 @@ const SPEAKERS = [
         avatar: bogdan_kikacheishvili,
         company: 'IDAP',
         description: 'What levels of engineers and managers are there in IT companies? How to determine your level? Are these gradations necessary?'
-    },
-    {
-        name: 'Sergey Nemchinsky',
-        avatar: sergey_nemchinskiy,
-        company: 'FoxmindEd',
-        description: 'What is the problem with IT departments in universities? What should be added, what should be reduced, and what can be completely removed?'
-    },
-    {
-        name: 'Denis Panaskin',
-        avatar: denis_panaskin,
-        company: 'VARTEQ',
-        description: 'What is the right way to study in IT? What mistakes do junior engineers often make, how to avoid them? How do you learn to learn?'
-    },
-    {
-        name: 'Yulia Petruk',
-        avatar: yulia_petruk,
-        company: 'VARTEQ',
-        description: 'The importance of HR managers in companies. What types of HR managers are there? What is the difference between a "recruiter" and an "HR"?'
     },
     {
         name: 'QATESTLAB',

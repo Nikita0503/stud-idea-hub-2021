@@ -26,19 +26,15 @@ import solwey_consulting from '../../content/solwey_consulting_logo_white.png';
 const POINTS_DAY_1 = [
     {number: 1, name: 'Artem Kariavka', topic: 'Startups / outsource / freelance', logo: livarava, time: '12:00', avatar: artem_kariavka},
     {number: 2, name: 'Nikita Shevtsiv', topic: 'How to find your first job in IT', logo: varteq_logo, time: '12:30', avatar: papich},
-    {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', logo: solwey_consulting, time: '13:30', avatar: vladislav_zadorozhnii},
-    {number: 5, name: 'Kikacheishvili Bogdan', topic: 'Hierarchies of IT companies', small_logo: true, logo: idap, time: '14:00', avatar: bogdan_kikacheishvili},
-    {number: 6, name: 'Round table', topic: 'Everyone can ask questions to speakers during a round table, talk about working in IT, take an interest in studying at the university', time: '14:30', avatar: roundTable}
+    {number: 3, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', logo: solwey_consulting, time: '13:30', avatar: vladislav_zadorozhnii},
+    {number: 4, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
 ]
 
 const POINTS_DAY_2 = [
-    {number: 1, name: 'Sergey Nemchinskiy', topic: 'How to fix the flaws of IT departments', small_logo: true, logo: foxminded, time: '12:00', avatar: sergey_nemchinskiy},
-    {number: 2, name: 'Yulia Petruk', topic: 'The importance of the HR function', logo: varteq_logo, time: '12:30', avatar: yulia_petruk},
-    {number: 3, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
-    {number: 4, name: 'QATESTLAB', topic: 'Game testing features', logo: qatestlab, time: '13:30', avatar: margot},
-    {number: 5, name: 'Denis Panaskin', topic: 'How to learn to learn in it', logo: varteq_logo,  time: '14:00', avatar: denis_panaskin},
-    {number: 6, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
+    {number: 5, name: 'Kikacheishvili Bogdan', topic: 'Hierarchies of IT companies', small_logo: true, logo: idap, time: '14:00', avatar: bogdan_kikacheishvili},
+    {number: 6, name: 'QATESTLAB', topic: 'Game testing features', logo: qatestlab, time: '13:30', avatar: margot},
+    {number: 7, name: 'Sergey Nemchinskiy', topic: 'How to fix the flaws of IT departments', small_logo: true, logo: foxminded, time: '12:00', avatar: sergey_nemchinskiy},
+    {number: 8, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
 ]
 
 const Schedule = () => {
@@ -53,7 +49,6 @@ const Schedule = () => {
                     src={selected.avatar}/>
                     <div className="selected_speaker_text">
                         <span className="selected_speaker_text__name">{selected.name}</span>
-                        
                         <span className="selected_speaker_text__theme">{selected.topic}</span>
                         <img 
                             src={selected.logo}
@@ -75,7 +70,7 @@ const Schedule = () => {
 
     const getSelected = (number) => {
         
-        if(number === 3 || number === 6 || number === 9 || number === 12){
+        if(number === 4 || number === 8){
             return getSelectedRoundTable()
         }
         return getSelectedSpeaker()
@@ -94,11 +89,11 @@ const Schedule = () => {
         <div className="selected_part">
             {selected ? getSelected(selected.number) : getLogo()}
         </div>
-        <span className="schedule_days__day schedule_days__day_first">DAY 1</span>
+        <div className="schedule_day_container">
         <ScheduleDay points={POINTS_DAY_1} setSelected={setSelected}/>
         <hr/>
         <ScheduleDay points={POINTS_DAY_2} setSelected={setSelected}/>
-        <span className="schedule_days__day schedule_days__day_second">DAY 2</span>
+        </div>
 
     </div>)
 }
