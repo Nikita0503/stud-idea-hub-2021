@@ -37,7 +37,7 @@ const SPEAKERS = [
         description: 'Can the IT learning process be simplified? How can I do that? What mistakes do beginners most often make in the learning process?'
     },
     {
-        name: 'Bohdan Kachichilidze',
+        name: 'Bogdan Kikacheishvili',
         avatar: bogdan_kikacheishvili,
         company: 'IDAP',
         description: 'What levels of engineers and managers are there in IT companies? How to determine your level? Are these gradations necessary?'
