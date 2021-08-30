@@ -6,8 +6,8 @@ import logo from '../../content/logo.png';
 import coffeeBreak from '../../content/coffee_break.png'
 import roundTable from '../../content/round_table.png';
 
-import margot from '../../content/margot.jpg'
-import papich from '../../content/speakers/yuri_steam.png'
+import margot from '../../content/speakers/qa_mock.png'
+import papich from '../../content/speakers/papich.png'
 import artem_kariavka from '../../content/speakers/artem_kariavka.jpg';
 import sergey_nemchinskiy from '../../content/speakers/sergey_nemchinskiy.jpg'
 import bogdan_kikacheishvili from '../../content/speakers/bogdan_kikacheishvili.jpg';

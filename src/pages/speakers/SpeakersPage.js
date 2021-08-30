@@ -2,8 +2,8 @@ import './SpeakersPage.css';
 import React from 'react';
 import Speaker from '../../components/Speaker/Speaker';
 
-import margot from '../../content/margot.jpg'
-import papich from '../../content/speakers/yuri_steam.png'
+import margot from '../../content/speakers/qa_mock.png'
+import papich from '../../content/speakers/papich.png'
 import artem_kariavka from '../../content/speakers/artem_kariavka.jpg';
 import sergey_nemchinskiy from '../../content/speakers/sergey_nemchinskiy.jpg'
 import bogdan_kikacheishvili from '../../content/speakers/bogdan_kikacheishvili.jpg';
