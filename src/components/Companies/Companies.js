@@ -4,7 +4,7 @@ import VARTEQ from '../../content/VARTEQ_logo.png'
 import IDAP from '../../content/idap_logo.png'
 import FOXMINED from '../../content/foxminded_logo.png'
 import LIVARAVA from '../../content/livarava_logo.png'
-import QATESTLAB from '../../content/qatestlab_logo.png'
+import QATESTLAB from '../../content/solwey_consulting_logo_white.png'
 
 const Companies = () => {
 
@@ -49,9 +49,9 @@ const Companies = () => {
                             </div>
                         </div>
                         <div className="qatestlab">
-                            <span className="qatestlab__title">Ukraine, Kyiv:</span>
+                            <span className="qatestlab__title">U.S.A. Austin:</span>
                             <div className="qatestlab_info">
-                                <span className="qatestlab_info__description"><p><a href="https://qatestlab.com"><span class="qatestlab__link">QATestLab</span></a> is a global provider of independent software testing and QA services with over 15 years of experience delivering QA support.</p></span>
+                                <span className="qatestlab_info__description"><p><a href="https://solwey.com"><span class="qatestlab__link">Solwey Consulting</span></a> is the company that builds e-commerce systems, innovative social networks, event management systems, fintech applications, or a new CRM.</p></span>
                                 <img className="qatestlab_info__image" src={QATESTLAB}/>
                             </div>
                         </div>

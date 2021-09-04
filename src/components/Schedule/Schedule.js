@@ -26,15 +26,14 @@ import solwey_consulting from '../../content/solwey_consulting_logo_white.png';
 const POINTS_DAY_1 = [
     {number: 1, name: 'Artem Kariavka', topic: 'Startups / outsource / freelance', logo: livarava, time: '12:00', avatar: artem_kariavka},
     {number: 2, name: 'Nikita Shevtsiv', topic: 'How to find your first job in IT', logo: varteq_logo, time: '12:30', avatar: papich},
-    {number: 3, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', logo: solwey_consulting, time: '13:30', avatar: vladislav_zadorozhnii},
-    {number: 4, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:00', avatar: coffeeBreak},
+    {number: 3, name: 'Vladislav Zadoroshii', topic: 'Learning process simplification', logo: solwey_consulting, time: '13:00', avatar: vladislav_zadorozhnii},
+    {number: 4, name: 'Coffee break', topic: 'The opportunity to take a break and chat with each other, speakers, company representatives over a cup of tea and cookies or take a picture with friends in the photo zone', time: '13:30', avatar: coffeeBreak},
 ]
 
 const POINTS_DAY_2 = [
     {number: 5, name: 'Kikacheishvili Bogdan', topic: 'Hierarchies of IT companies', small_logo: true, logo: idap, time: '14:00', avatar: bogdan_kikacheishvili},
-    {number: 6, name: 'QATESTLAB', topic: 'Game testing features', logo: qatestlab, time: '13:30', avatar: margot},
-    {number: 7, name: 'Sergey Nemchinskiy', topic: 'How to fix the flaws of IT departments', small_logo: true, logo: foxminded, time: '12:00', avatar: sergey_nemchinskiy},
-    {number: 8, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '14:30', avatar: roundTable}
+    {number: 6, name: 'Sergey Nemchinskiy', topic: 'How to fix the flaws of IT departments', small_logo: true, logo: foxminded, time: '14:30', avatar: sergey_nemchinskiy},
+    {number: 7, name: 'Round table', topic: 'In this conversation, the most important issues of university education will be touched upon. After that, the FIT rebirth begins...', time: '15:10', avatar: roundTable}
 ]
 
 const Schedule = () => {
@@ -70,7 +69,7 @@ const Schedule = () => {
 
     const getSelected = (number) => {
         
-        if(number === 4 || number === 8){
+        if(number === 4 || number === 7){
             return getSelectedRoundTable()
         }
         return getSelectedSpeaker()

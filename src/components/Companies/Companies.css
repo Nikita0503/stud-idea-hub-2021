@@ -217,7 +217,7 @@
 .qatestlab__title{
     font-size: 36px;
     font-weight: 550;
-    color: #000000;
+    color: #fff;
 }
 
 .qatestlab_info{
@@ -239,12 +239,12 @@
     align-items: center;
     text-align: start;
     font-size: 20px;
-    color: #000000;
+    color: #fff;
 }
 
 .qatestlab__link{
     text-decoration: underline;
-    color: #000000;
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {

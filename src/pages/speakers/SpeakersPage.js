@@ -13,16 +13,16 @@ import yulia_petruk from '../../content/speakers/yulia_petruk.jpg';
 
 const SPEAKERS = [
     {
-        name: 'Sergey Nemchinsky',
-        avatar: sergey_nemchinskiy,
-        company: 'FoxmindEd',
-        description: 'What is the problem with IT departments in universities? What should be added, what should be reduced, and what can be completely removed?'
-    },
-    {
         name: 'Artem Karyavka',
         avatar: artem_kariavka,
         company: 'LivaRava',
         description: 'How does an IT business work? What are the main directions in this area? What is freelance, outsourcing, startup?'
+    },
+    {
+        name: 'Sergey Nemchinsky',
+        avatar: sergey_nemchinskiy,
+        company: 'FoxmindEd',
+        description: 'What is the problem with IT departments in universities? What should be added, what should be reduced, and what can be completely removed?'
     },
     {
         name: 'Nikita Shevtsiv',
@@ -42,12 +42,7 @@ const SPEAKERS = [
         company: 'IDAP',
         description: 'What levels of engineers and managers are there in IT companies? How to determine your level? Are these gradations necessary?'
     },
-    {
-        name: 'QATESTLAB',
-        avatar: margot,
-        company: 'QATESTLAB',
-        description: 'How is the game testing process going? How is this different from conventional projects? How to become a game tester?'
-    }
+
 ]
 
 const SpeakersPage = () => {

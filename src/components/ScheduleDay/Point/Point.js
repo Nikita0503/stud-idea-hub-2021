@@ -9,7 +9,7 @@ const Point = (props) => {
                 <div className={`point_shape__line point_shape__line_start ${props.index === 0 && 'point_shape__line_hidden'}`}/>
                 <div className="point_description">
                     <img 
-                        className={`point_description__avatar ${(props.index + 1 ) % 4 == 0 && 'point_description__avatar_empty'}`}
+                        className={`point_description__avatar ${((props.speaker.number ) == 4 || (props.speaker.number) == 7) && 'point_description__avatar_empty'}`}
                         src={props.speaker.avatar}
                         onMouseOver={() => props.setSelected(props.speaker)} 
                         onClick={() => props.setSelected(props.speaker)}/>
